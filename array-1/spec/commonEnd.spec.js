@@ -11,31 +11,31 @@ const commonEnd = (a, b) => {
   // Write code here
 
 };
-    
+
 describe('commonEnd(a, b)', () => {
 
     it('commonEnd([1, 2, 3], [7, 3]) -> true)', () => {
-      expect(commonEnd([1, 2, 3], [7, 3])).toBe(true);
+      expect(commonEnd([1, 2, 3], [7, 3])).toEqual(true);
     });
-    
+
 
     it('commonEnd([1, 2, 3], [7, 3, 2]) -> false)', () => {
-      expect(commonEnd([1, 2, 3], [7, 3, 2])).toBe(false);
+      expect(commonEnd([1, 2, 3], [7, 3, 2])).toEqual(false);
     });
-    
+
 
     it('commonEnd([1, 2, 3], [1, 3]) -> true)', () => {
-      expect(commonEnd([1, 2, 3], [1, 3])).toBe(true);
+      expect(commonEnd([1, 2, 3], [1, 3])).toEqual(true);
     });
-    
+
 
     it('commonEnd([1, 2, 3], [1]) -> true)', () => {
-      expect(commonEnd([1, 2, 3], [1])).toBe(true);
+      expect(commonEnd([1, 2, 3], [1])).toEqual(true);
     });
-    
+
 
     it('commonEnd([1, 2, 3], [2]) -> false)', () => {
-      expect(commonEnd([1, 2, 3], [2])).toBe(false);
+      expect(commonEnd([1, 2, 3], [2])).toEqual(false);
     });
-    
+
 });

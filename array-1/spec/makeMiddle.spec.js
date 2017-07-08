@@ -11,31 +11,31 @@ const makeMiddle = (nums) => {
   // Write code here
 
 };
-    
+
 describe('makeMiddle(nums)', () => {
 
     it('makeMiddle([1, 2, 3, 4]) -> [2, 3])', () => {
-      expect(makeMiddle([1, 2, 3, 4])).toBe([2, 3]);
+      expect(makeMiddle([1, 2, 3, 4])).toEqual([2, 3]);
     });
-    
+
 
     it('makeMiddle([7, 1, 2, 3, 4, 9]) -> [2, 3])', () => {
-      expect(makeMiddle([7, 1, 2, 3, 4, 9])).toBe([2, 3]);
+      expect(makeMiddle([7, 1, 2, 3, 4, 9])).toEqual([2, 3]);
     });
-    
+
 
     it('makeMiddle([1, 2]) -> [1, 2])', () => {
-      expect(makeMiddle([1, 2])).toBe([1, 2]);
+      expect(makeMiddle([1, 2])).toEqual([1, 2]);
     });
-    
+
 
     it('makeMiddle([5, 2, 4, 7]) -> [2, 4])', () => {
-      expect(makeMiddle([5, 2, 4, 7])).toBe([2, 4]);
+      expect(makeMiddle([5, 2, 4, 7])).toEqual([2, 4]);
     });
-    
+
 
     it('makeMiddle([9, 0, 4, 3, 9, 1]) -> [4, 3])', () => {
-      expect(makeMiddle([9, 0, 4, 3, 9, 1])).toBe([4, 3]);
+      expect(makeMiddle([9, 0, 4, 3, 9, 1])).toEqual([4, 3]);
     });
-    
+
 });

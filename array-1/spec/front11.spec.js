@@ -11,41 +11,41 @@ const front11 = (a, b) => {
   // Write code here
 
 };
-    
+
 describe('front11(a, b)', () => {
 
     it('front11([1, 2, 3], [7, 9, 8]) -> [1, 7])', () => {
-      expect(front11([1, 2, 3], [7, 9, 8])).toBe([1, 7]);
+      expect(front11([1, 2, 3], [7, 9, 8])).toEqual([1, 7]);
     });
-    
+
 
     it('front11([1], [2]) -> [1, 2])', () => {
-      expect(front11([1], [2])).toBe([1, 2]);
+      expect(front11([1], [2])).toEqual([1, 2]);
     });
-    
+
 
     it('front11([1, 7], []) -> [1])', () => {
-      expect(front11([1, 7], [])).toBe([1]);
+      expect(front11([1, 7], [])).toEqual([1]);
     });
-    
+
 
     it('front11([], [2, 8]) -> [2])', () => {
-      expect(front11([], [2, 8])).toBe([2]);
+      expect(front11([], [2, 8])).toEqual([2]);
     });
-    
+
 
     it('front11([], []) -> [])', () => {
-      expect(front11([], [])).toBe([]);
+      expect(front11([], [])).toEqual([]);
     });
-    
+
 
     it('front11([3], [1, 4, 1, 9]) -> [3, 1])', () => {
-      expect(front11([3], [1, 4, 1, 9])).toBe([3, 1]);
+      expect(front11([3], [1, 4, 1, 9])).toEqual([3, 1]);
     });
-    
+
 
     it('front11([1, 4, 1, 9], []) -> [1])', () => {
-      expect(front11([1, 4, 1, 9], [])).toBe([1]);
+      expect(front11([1, 4, 1, 9], [])).toEqual([1]);
     });
-    
+
 });

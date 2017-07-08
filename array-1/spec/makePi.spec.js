@@ -9,11 +9,11 @@ const makePi = () => {
   // Write code here
 
 };
-    
+
 describe('makePi()', () => {
 
     it('makePi() -> [3, 1, 4])', () => {
-      expect(makePi()).toBe([3, 1, 4]);
+      expect(makePi()).toEqual([3, 1, 4]);
     });
-    
+
 });
