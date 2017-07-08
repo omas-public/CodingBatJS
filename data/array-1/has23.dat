@@ -5,12 +5,12 @@ has23([4, 3]) → true
 has23([4, 5]) → false
 --
 has23(nums)
-has23([2, 5])→ true  false
-has23([4, 3])→ true  false
-has23([4, 5])→ false false
-has23([2, 2])→ true  false
-has23([3, 2])→ true  false
-has23([3, 3])→ true  false
-has23([7, 7])→ false false
-has23([3, 9])→ true  false
-has23([9, 5])→ false false
+has23([2, 5])→ true
+has23([4, 3])→ true
+has23([4, 5])→ false
+has23([2, 2])→ true
+has23([3, 2])→ true
+has23([3, 3])→ true
+has23([7, 7])→ false
+has23([3, 9])→ true
+has23([9, 5])→ false
