@@ -13,4 +13,4 @@ makeAbba("x", "y")     → "xyyx"
 makeAbba("x", "")      → "xx"
 makeAbba("", "y")      → "yy"
 makeAbba("Bo", "Ya")   → "BoYaYaBo"
-makeAbba("Ya", "Ya")   → "YaYaYaYa
+makeAbba("Ya", "Ya")   → "YaYaYaYa"

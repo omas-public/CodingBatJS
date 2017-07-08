@@ -11,51 +11,51 @@ const makeAbba = (a, b) => {
   // Write code here
 
 };
-    
+
 describe('makeAbba(a, b)', () => {
 
     it('makeAbba("Hi", "Bye") -> "HiByeByeHi")', () => {
       expect(makeAbba("Hi", "Bye")).toBe("HiByeByeHi");
     });
-    
+
 
     it('makeAbba("Yo", "Alice") -> "YoAliceAliceYo")', () => {
       expect(makeAbba("Yo", "Alice")).toBe("YoAliceAliceYo");
     });
-    
+
 
     it('makeAbba("What", "Up") -> "WhatUpUpWhat")', () => {
       expect(makeAbba("What", "Up")).toBe("WhatUpUpWhat");
     });
-    
+
 
     it('makeAbba("aaa", "bbb") -> "aaabbbbbbaaa")', () => {
       expect(makeAbba("aaa", "bbb")).toBe("aaabbbbbbaaa");
     });
-    
+
 
     it('makeAbba("x", "y") -> "xyyx")', () => {
       expect(makeAbba("x", "y")).toBe("xyyx");
     });
-    
+
 
     it('makeAbba("x", "") -> "xx")', () => {
       expect(makeAbba("x", "")).toBe("xx");
     });
-    
+
 
     it('makeAbba("", "y") -> "yy")', () => {
       expect(makeAbba("", "y")).toBe("yy");
     });
-    
+
 
     it('makeAbba("Bo", "Ya") -> "BoYaYaBo")', () => {
       expect(makeAbba("Bo", "Ya")).toBe("BoYaYaBo");
     });
-    
 
-    it('makeAbba("Ya", "Ya") -> "YaYaYaYa)', () => {
-      expect(makeAbba("Ya", "Ya")).toBe("YaYaYaYa);
+
+    it('makeAbba("Ya", "Ya") -> "YaYaYaYa")', () => {
+      expect(makeAbba("Ya", "Ya")).toBe("YaYaYaYa");
     });
-    
+
 });
