@@ -1,0 +1,1 @@
+middleThree.spec.js

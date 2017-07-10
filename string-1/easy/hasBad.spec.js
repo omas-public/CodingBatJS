@@ -1,0 +1,1 @@
+hasBad.spec.js
