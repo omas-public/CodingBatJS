@@ -1,0 +1,1 @@
+max1020.spec.js
