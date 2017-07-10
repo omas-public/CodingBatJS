@@ -11,76 +11,76 @@ const inOrderEqual = (a, b, c, equalOk) => {
   // Write code here
 
 };
-    
+
 describe('inOrderEqual(a, b, c, equalOk)', () => {
 
     it('inOrderEqual(2, 5, 11, false) -> true)', () => {
       expect(inOrderEqual(2, 5, 11, false)).toBe(true);
     });
-    
+
 
     it('inOrderEqual(5, 7, 6, false) -> false)', () => {
       expect(inOrderEqual(5, 7, 6, false)).toBe(false);
     });
-    
+
 
     it('inOrderEqual(5, 5, 7, true) -> true)', () => {
       expect(inOrderEqual(5, 5, 7, true)).toBe(true);
     });
-    
+
 
     it('inOrderEqual(5, 5, 7, false) -> false)', () => {
       expect(inOrderEqual(5, 5, 7, false)).toBe(false);
     });
-    
+
 
     it('inOrderEqual(2, 5, 4, false) -> false)', () => {
       expect(inOrderEqual(2, 5, 4, false)).toBe(false);
     });
-    
+
 
     it('inOrderEqual(3, 4, 3, false) -> false)', () => {
       expect(inOrderEqual(3, 4, 3, false)).toBe(false);
     });
-    
+
 
     it('inOrderEqual(3, 4, 4, false) -> false)', () => {
       expect(inOrderEqual(3, 4, 4, false)).toBe(false);
     });
-    
+
 
     it('inOrderEqual(3, 4, 3, true) -> false)', () => {
       expect(inOrderEqual(3, 4, 3, true)).toBe(false);
     });
-    
+
 
     it('inOrderEqual(3, 4, 4, true) -> true)', () => {
       expect(inOrderEqual(3, 4, 4, true)).toBe(true);
     });
-    
+
 
     it('inOrderEqual(1, 5, 5, true) -> true)', () => {
       expect(inOrderEqual(1, 5, 5, true)).toBe(true);
     });
-    
+
 
     it('inOrderEqual(5, 5, 5, true) -> true)', () => {
       expect(inOrderEqual(5, 5, 5, true)).toBe(true);
     });
-    
+
 
     it('inOrderEqual(2, 2, 1, true) -> false)', () => {
       expect(inOrderEqual(2, 2, 1, true)).toBe(false);
     });
-    
+
 
     it('inOrderEqual(9, 2, 2, true) -> false)', () => {
       expect(inOrderEqual(9, 2, 2, true)).toBe(false);
     });
-    
+
 
     it('inOrderEqual(0, 1, 0, true) -> false)', () => {
       expect(inOrderEqual(0, 1, 0, true)).toBe(false);
     });
-    
+
 });

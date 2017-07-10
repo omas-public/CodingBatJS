@@ -1,0 +1,1 @@
+shareDigit.spec.js
