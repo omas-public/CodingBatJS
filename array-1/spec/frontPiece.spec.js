@@ -1,6 +1,10 @@
 /*
 Given an int array of any length, return a new array of its first 2 elements. If the array is smaller than length 2, use whatever elements are present.
 
+- 任意の長さをもつ配列 nums が与えられる。
+  - nums の最初の2つの要素を持つ配列を返せ
+    - ただし numsの長さが2以下の場合はそのまま返せ
+
 frontPiece([1, 2, 3]) → [1, 2]
 frontPiece([1, 2]) → [1, 2]
 frontPiece([1]) → [1]

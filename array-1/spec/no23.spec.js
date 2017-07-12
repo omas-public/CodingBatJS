@@ -5,67 +5,69 @@ no23([4, 5]) → true
 no23([4, 2]) → false
 no23([3, 5]) → false
 
+- 長さ2の配列 num が与えられる
+   - 要素内に2または3を含まない時trueを返せ
 */
 
 const no23 = (nums) => {
   // Write code here
 
 };
-    
+
 describe('no23(nums)', () => {
 
     it('no23([4, 5]) -> true)', () => {
       expect(no23([4, 5])).toBe(true);
     });
-    
+
 
     it('no23([4, 2]) -> false)', () => {
       expect(no23([4, 2])).toBe(false);
     });
-    
+
 
     it('no23([3, 5]) -> false)', () => {
       expect(no23([3, 5])).toBe(false);
     });
-    
+
 
     it('no23([1, 9]) -> true)', () => {
       expect(no23([1, 9])).toBe(true);
     });
-    
+
 
     it('no23([2, 9]) -> false)', () => {
       expect(no23([2, 9])).toBe(false);
     });
-    
+
 
     it('no23([1, 3]) -> false)', () => {
       expect(no23([1, 3])).toBe(false);
     });
-    
+
 
     it('no23([1, 1]) -> true)', () => {
       expect(no23([1, 1])).toBe(true);
     });
-    
+
 
     it('no23([2, 2]) -> false)', () => {
       expect(no23([2, 2])).toBe(false);
     });
-    
+
 
     it('no23([3, 3]) -> false)', () => {
       expect(no23([3, 3])).toBe(false);
     });
-    
+
 
     it('no23([7, 8]) -> true)', () => {
       expect(no23([7, 8])).toBe(true);
     });
-    
+
 
     it('no23([8, 7]) -> true)', () => {
       expect(no23([8, 7])).toBe(true);
     });
-    
+
 });

@@ -1,6 +1,10 @@
 /*
 Given 2 int arrays, a and b, of any length, return a new array with the first element of each array. If either array is length 0, ignore that array.
 
+- 任意の長さをもつ配列 a,b が与えられる。
+  - a, b のそれぞれの最初の要素を含む配列を返せ
+    - いずれかの配列長が0の場合はその配列を無視せよ
+
 front11([1, 2, 3], [7, 9, 8]) → [1, 7]
 front11([1], [2]) → [1, 2]
 front11([1, 7], []) → [1]

@@ -29,10 +29,10 @@ const ${line[0]} = ${line[1]} => {
 
   const makeSpec = (func) => {
     return `
-    it('${func.join(' -> ')})', () => {
-      expect(${func[0]}).toBe(${func[1]});
-    });
-    `;
+  it('${func.join(' -> ')})', () => {
+    expect(${func[0]}).toBe(${func[1]});
+  });
+  `;
   };
 
   // Declare variable

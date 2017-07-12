@@ -1,6 +1,10 @@
 /*
 Start with 2 int arrays, a and b, each length 2. Consider the sum of the values in each array. Return the array which has the largest sum. In event of a tie, return a.
 
+- 長さ2の配列a,bが与えられる。
+  - それぞれの配列の要素の合計を計算し大きいほうの配列を返せ
+  - 合計が同じ場合はaを返せ
+
 biggerTwo([1, 2], [3, 4]) → [3, 4]
 biggerTwo([3, 4], [1, 2]) → [3, 4]
 biggerTwo([1, 1], [1, 2]) → [1, 2]
