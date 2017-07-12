@@ -27,8 +27,8 @@ describe('has23(nums)', () => {
     });
 
 
-    it('has23([4, 5]) -> false false)', () => {
-      expect(has23([4, 5])).toBe(false false);
+    it('has23([4, 5]) -> false)', () => {
+      expect(has23([4, 5])).toBe(false);
     });
 
 
