@@ -1,1 +1,1 @@
-sameFirstLast.spec.js
+../spec/sameFirstLast.spec.js

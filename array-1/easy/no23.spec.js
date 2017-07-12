@@ -1,1 +1,1 @@
-no23.spec.js
+../spec/no23.spec.js

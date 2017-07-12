@@ -1,1 +1,1 @@
-maxEnd3.spec.js
+../spec/maxEnd3.spec.js

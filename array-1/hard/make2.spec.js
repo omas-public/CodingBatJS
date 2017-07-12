@@ -1,1 +1,1 @@
-make2.spec.js
+../spec/make2.spec.js

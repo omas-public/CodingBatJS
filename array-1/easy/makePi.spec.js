@@ -1,1 +1,1 @@
-makePi.spec.js
+../spec/makePi.spec.js

@@ -1,1 +1,1 @@
-middleWay.spec.js
+../spec/middleWay.spec.js

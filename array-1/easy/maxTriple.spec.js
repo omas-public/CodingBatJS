@@ -1,1 +1,1 @@
-maxTriple.spec.js
+../spec/maxTriple.spec.js

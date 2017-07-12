@@ -1,1 +1,1 @@
-double23.spec.js
+../spec/double23.spec.js

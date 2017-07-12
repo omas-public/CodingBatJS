@@ -1,1 +1,1 @@
-makeMiddle.spec.js
+../spec/makeMiddle.spec.js

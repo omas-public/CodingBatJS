@@ -1,1 +1,1 @@
-makeEnds.spec.js
+../spec/makeEnds.spec.js

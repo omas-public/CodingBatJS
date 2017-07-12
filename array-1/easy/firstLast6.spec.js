@@ -1,1 +1,1 @@
-firstLast6.spec.js
+../spec/firstLast6.spec.js

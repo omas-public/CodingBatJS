@@ -1,1 +1,1 @@
-makeLast.spec.js
+../spec/makeLast.spec.js

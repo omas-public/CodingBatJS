@@ -1,1 +1,1 @@
-sum2.spec.js
+../spec/sum2.spec.js

@@ -18,13 +18,24 @@ arr[arr.length - 1]; // 最後の要素にアクセス
 Method
 --------
 ### Array.prototype.join([separator = ','])
-メソッドは、配列のすべての要素を繋いで文字列にします。
+
+配列のすべての要素を繋いで文字列にします。
 
 ```
 let arr = [1, 2, 3];
 arr.join();    // '123'
 arr.join(' '); // '1 2 3'
 arr.join('\n') // '1\n2\n3'
+```
+
+### Array.prototype.concat(value1[, value2[, ...[, valueN]]])
+
+配列に他の配列や値をつないでできた新しい配列を返します。
+
+```
+let arr1 = [1, 2, 3];
+let arr2 = [3, 4, 5];
+arr1.concat(b); // [1, 2 ,3 ,3 ,4, 5]
 ```
 
 ### Array.prototype.slice(begin[,end])
@@ -62,7 +73,6 @@ arr.indexOf(1); // 0
 arr.indexOf(5); // -1
 ```
 
-
 ### Array.prototype.reverse()
 配列の要素を反転させます。最初の要素は最後に、最後の要素は最初になります。
 ```
@@ -79,15 +89,6 @@ arr.sort((a, b) => a - b); // [1, 2, 3]
 arr.sort((a, b) => b - a); // [3, 2, 1]
 ```
 
-### Array.prototype.concat(value1[, value2[, ...[, valueN]]])
-
-concat() メソッドは、配列に他の配列や値をつないでできた新しい配列を返します。
-
-```
-let arr1 = [1, 2, 3];
-let arr2 = [3, 4, 5];
-arr1.concat(b); // [1, 2 ,3 ,3 ,4, 5]
-```
 
 ### Array.prototype.fill(value[, start = 0[, end = this.length]])
 fill() メソッドは、配列中の開始インデックスから終了インデックスまでの要素を固定値で設定します。

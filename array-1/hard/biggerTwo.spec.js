@@ -1,1 +1,1 @@
-biggerTwo.spec.js
+../spec/biggerTwo.spec.js

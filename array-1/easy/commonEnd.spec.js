@@ -1,1 +1,1 @@
-commonEnd.spec.js
+../spec/commonEnd.spec.js

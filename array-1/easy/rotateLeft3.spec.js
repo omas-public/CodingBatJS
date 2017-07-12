@@ -1,1 +1,1 @@
-rotateLeft3.spec.js
+../spec/rotateLeft3.spec.js

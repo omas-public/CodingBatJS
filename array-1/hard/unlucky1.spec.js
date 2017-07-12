@@ -1,1 +1,1 @@
-unlucky1.spec.js
+../spec/unlucky1.spec.js

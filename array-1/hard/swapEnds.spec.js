@@ -1,1 +1,1 @@
-swapEnds.spec.js
+../spec/swapEnds.spec.js

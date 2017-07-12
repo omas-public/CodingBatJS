@@ -1,1 +1,1 @@
-reverse3.spec.js
+../spec/reverse3.spec.js
