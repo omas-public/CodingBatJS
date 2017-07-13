@@ -1,1 +1,1 @@
-frontBack.spec.js
+../spec/frontBack.spec.js

@@ -1,1 +1,1 @@
-deFront.spec.js
+../spec/deFront.spec.js

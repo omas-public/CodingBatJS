@@ -1,1 +1,1 @@
-parrotTrouble.spec.js
+../spec/parrotTrouble.spec.js

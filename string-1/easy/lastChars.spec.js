@@ -1,1 +1,1 @@
-lastChars.spec.js
+../spec/lastChars.spec.js

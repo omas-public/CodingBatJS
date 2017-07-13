@@ -1,1 +1,1 @@
-makeAbba.spec.js
+../spec/makeAbba.spec.js

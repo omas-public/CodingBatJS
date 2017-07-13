@@ -1,1 +1,1 @@
-theEnd.spec.js
+../spec/theEnd.spec.js

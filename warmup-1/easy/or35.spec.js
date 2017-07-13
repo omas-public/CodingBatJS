@@ -1,1 +1,1 @@
-or35.spec.js
+../spec/or35.spec.js

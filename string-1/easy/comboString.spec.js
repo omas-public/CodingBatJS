@@ -1,1 +1,1 @@
-comboString.spec.js
+../spec/comboString.spec.js

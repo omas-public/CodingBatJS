@@ -1,1 +1,1 @@
-left2.spec.js
+../spec/left2.spec.js

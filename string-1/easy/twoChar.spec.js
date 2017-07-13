@@ -1,1 +1,1 @@
-twoChar.spec.js
+../spec/twoChar.spec.js

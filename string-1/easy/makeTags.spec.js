@@ -1,1 +1,1 @@
-makeTags.spec.js
+../spec/makeTags.spec.js

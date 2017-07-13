@@ -1,1 +1,1 @@
-icyHot.spec.js
+../spec/icyHot.spec.js

@@ -1,1 +1,1 @@
-startOz.spec.js
+../spec/startOz.spec.js

@@ -1,1 +1,1 @@
-everyNth.spec.js
+../spec/everyNth.spec.js

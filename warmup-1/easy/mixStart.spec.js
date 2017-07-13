@@ -1,1 +1,1 @@
-mixStart.spec.js
+../spec/mixStart.spec.js

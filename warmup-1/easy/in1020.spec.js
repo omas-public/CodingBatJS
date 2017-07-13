@@ -1,1 +1,1 @@
-in1020.spec.js
+../spec/in1020.spec.js

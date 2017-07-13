@@ -1,1 +1,1 @@
-missingChar.spec.js
+../spec/missingChar.spec.js

@@ -1,1 +1,1 @@
-monkeyTrouble.spec.js
+../spec/monkeyTrouble.spec.js

@@ -1,1 +1,1 @@
-firstTwo.spec.js
+../spec/firstTwo.spec.js

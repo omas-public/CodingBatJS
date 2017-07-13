@@ -1,1 +1,1 @@
-withoutX.spec.js
+../spec/withoutX.spec.js

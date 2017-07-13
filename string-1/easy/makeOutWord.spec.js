@@ -1,1 +1,1 @@
-makeOutWord.spec.js
+../spec/makeOutWord.spec.js

@@ -1,1 +1,1 @@
-stringE.spec.js
+../spec/stringE.spec.js

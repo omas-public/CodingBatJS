@@ -1,1 +1,0 @@
-minCat.spec.js

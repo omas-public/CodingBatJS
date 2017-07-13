@@ -1,1 +1,1 @@
-diff21.spec.js
+../spec/diff21.spec.js

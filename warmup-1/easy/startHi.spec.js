@@ -1,1 +1,1 @@
-startHi.spec.js
+../spec/startHi.spec.js

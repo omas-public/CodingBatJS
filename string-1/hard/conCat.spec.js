@@ -1,1 +1,1 @@
-conCat.spec.js
+../spec/conCat.spec.js

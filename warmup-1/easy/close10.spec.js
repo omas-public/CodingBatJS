@@ -1,1 +1,1 @@
-close10.spec.js
+../spec/close10.spec.js

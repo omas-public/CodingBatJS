@@ -1,1 +1,1 @@
-helloName.spec.js
+../spec/helloName.spec.js

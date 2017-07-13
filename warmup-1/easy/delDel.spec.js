@@ -1,1 +1,1 @@
-delDel.spec.js
+../spec/delDel.spec.js

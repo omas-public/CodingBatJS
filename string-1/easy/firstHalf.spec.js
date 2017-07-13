@@ -1,1 +1,1 @@
-firstHalf.spec.js
+../spec/firstHalf.spec.js

@@ -1,1 +1,1 @@
-seeColor.spec.js
+../spec/seeColor.spec.js

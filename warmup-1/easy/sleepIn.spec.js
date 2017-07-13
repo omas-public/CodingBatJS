@@ -1,1 +1,1 @@
-sleepIn.spec.js
+../spec/sleepIn.spec.js

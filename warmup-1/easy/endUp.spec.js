@@ -1,1 +1,1 @@
-endUp.spec.js
+../spec/endUp.spec.js

@@ -1,1 +1,1 @@
-intMax.spec.js
+../spec/intMax.spec.js

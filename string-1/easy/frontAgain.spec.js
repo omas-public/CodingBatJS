@@ -1,1 +1,1 @@
-frontAgain.spec.js
+../spec/frontAgain.spec.js

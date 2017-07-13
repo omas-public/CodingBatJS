@@ -1,1 +1,1 @@
-middleTwo.spec.js
+../spec/middleTwo.spec.js

@@ -1,1 +1,1 @@
-withoutEnd.spec.js
+../spec/withoutEnd.spec.js

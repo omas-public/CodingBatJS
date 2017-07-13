@@ -1,1 +1,1 @@
-makes10.spec.js
+../spec/makes10.spec.js

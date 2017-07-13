@@ -1,1 +1,1 @@
-sumDouble.spec.js
+../spec/sumDouble.spec.js

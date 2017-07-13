@@ -13,7 +13,7 @@ front11([1, 7], []) → [1]
 
 const front11 = (a, b) => {
   // Write code here
-
+  return [a[0], b[0]].filter(v => v);
 };
 
 describe('front11(a, b)', () => {

@@ -1,1 +1,1 @@
-loneTeen.spec.js
+../spec/loneTeen.spec.js

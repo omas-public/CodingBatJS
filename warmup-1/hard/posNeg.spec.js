@@ -1,1 +1,1 @@
-posNeg.spec.js
+../spec/posNeg.spec.js

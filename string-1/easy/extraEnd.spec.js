@@ -1,1 +1,1 @@
-extraEnd.spec.js
+../spec/extraEnd.spec.js

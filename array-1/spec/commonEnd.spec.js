@@ -12,8 +12,20 @@ commonEnd([1, 2, 3], [1, 3]) → true
 */
 
 const commonEnd = (a, b) => {
-  // Write code here
+  let nth = (arr, index) => {
+    return arr[index];
+  };
+  let first = (arr) => {
+    return nth(arr, 0);
+  };
+  let last = (arr) => {
+    return nth(arr, arr.length - 1);
+  };
+  let equal = (arr) => arr[0] === arr[1];
 
+  // Write code here
+  return [[a, b].map(first), [a, b].map(last)]
+  .some(equal);
 };
 
 describe('commonEnd(a, b)', () => {

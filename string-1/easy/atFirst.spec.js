@@ -1,1 +1,1 @@
-atFirst.spec.js
+../spec/atFirst.spec.js

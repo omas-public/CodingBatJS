@@ -1,1 +1,1 @@
-extraFront.spec.js
+../spec/extraFront.spec.js

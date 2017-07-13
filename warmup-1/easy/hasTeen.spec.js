@@ -1,1 +1,1 @@
-hasTeen.spec.js
+../spec/hasTeen.spec.js

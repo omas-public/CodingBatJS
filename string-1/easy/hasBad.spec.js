@@ -1,1 +1,1 @@
-hasBad.spec.js
+../spec/hasBad.spec.js

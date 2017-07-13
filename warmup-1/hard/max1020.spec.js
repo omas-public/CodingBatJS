@@ -1,1 +1,1 @@
-max1020.spec.js
+../spec/max1020.spec.js

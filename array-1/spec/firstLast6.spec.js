@@ -13,7 +13,8 @@ firstLast6([13, 6, 1, 2, 3])→ false
 
 const firstLast6 = (nums) => {
   // Write code here
-
+  return [nums[0], nums[nums.length - 1]]
+    .some(v => v === 6);
 };
 
 describe('firstLast6(nums)', () => {

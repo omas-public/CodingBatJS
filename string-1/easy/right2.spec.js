@@ -1,1 +1,1 @@
-right2.spec.js
+../spec/right2.spec.js

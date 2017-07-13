@@ -1,1 +1,1 @@
-notString.spec.js
+../spec/notString.spec.js

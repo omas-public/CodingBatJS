@@ -1,1 +1,1 @@
-lastDigit.spec.js
+../spec/lastDigit.spec.js

@@ -1,1 +1,1 @@
-startWord.spec.js
+../spec/startWord.spec.js

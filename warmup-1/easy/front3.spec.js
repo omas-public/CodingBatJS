@@ -1,1 +1,1 @@
-front3.spec.js
+../spec/front3.spec.js

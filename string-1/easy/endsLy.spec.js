@@ -1,1 +1,1 @@
-endsLy.spec.js
+../spec/endsLy.spec.js

@@ -43,17 +43,17 @@ describe('reverse3(nums)', () => {
 
 
     it('reverse3([2, 11, 3]) -> [3, 11, 2])', () => {
-      expect(reverse3([2, 11, 3])).toBe([3, 11, 2]);
+      expect(reverse3([2, 11, 3])).toEqual([3, 11, 2]);
     });
 
 
     it('reverse3([0, 6, 5]) -> [5, 6, 0])', () => {
-      expect(reverse3([0, 6, 5])).toBe([5, 6, 0]);
+      expect(reverse3([0, 6, 5])).toEqual([5, 6, 0]);
     });
 
 
     it('reverse3([7, 2, 3]) -> [3, 2, 7])', () => {
-      expect(reverse3([7, 2, 3])).toBe([3, 2, 7]);
+      expect(reverse3([7, 2, 3])).toEqual([3, 2, 7]);
     });
 
 });

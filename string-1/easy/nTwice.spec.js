@@ -1,1 +1,1 @@
-nTwice.spec.js
+../spec/nTwice.spec.js
