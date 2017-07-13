@@ -16,33 +16,33 @@ const middleWay = (a, b) => {
 
 describe('middleWay(a, b)', () => {
 
-    it('middleWay([1, 2, 3], [4, 5, 6]) -> [2, 5])', () => {
-      expect(middleWay([1, 2, 3], [4, 5, 6])).toEqual([2, 5]);
-    });
+  it('middleWay([1, 2, 3], [4, 5, 6]) -> [2, 5])', () => {
+    expect(middleWay([1, 2, 3], [4, 5, 6])).toEqual([2, 5]);
+  });
 
 
-    it('middleWay([7, 7, 7], [3, 8, 0]) -> [7, 8])', () => {
-      expect(middleWay([7, 7, 7], [3, 8, 0])).toEqual([7, 8]);
-    });
+  it('middleWay([7, 7, 7], [3, 8, 0]) -> [7, 8])', () => {
+    expect(middleWay([7, 7, 7], [3, 8, 0])).toEqual([7, 8]);
+  });
 
 
-    it('middleWay([5, 2, 9], [1, 4, 5]) -> [2, 4])', () => {
-      expect(middleWay([5, 2, 9], [1, 4, 5])).toEqual([2, 4]);
-    });
+  it('middleWay([5, 2, 9], [1, 4, 5]) -> [2, 4])', () => {
+    expect(middleWay([5, 2, 9], [1, 4, 5])).toEqual([2, 4]);
+  });
 
 
-    it('middleWay([1, 9, 7], [4, 8, 8]) -> [9, 8])', () => {
-      expect(middleWay([1, 9, 7], [4, 8, 8])).toEqual([9, 8]);
-    });
+  it('middleWay([1, 9, 7], [4, 8, 8]) -> [9, 8])', () => {
+    expect(middleWay([1, 9, 7], [4, 8, 8])).toEqual([9, 8]);
+  });
 
 
-    it('middleWay([1, 2, 3], [3, 1, 4]) -> [2, 1])', () => {
-      expect(middleWay([1, 2, 3], [3, 1, 4])).toEqual([2, 1]);
-    });
+  it('middleWay([1, 2, 3], [3, 1, 4]) -> [2, 1])', () => {
+    expect(middleWay([1, 2, 3], [3, 1, 4])).toEqual([2, 1]);
+  });
 
 
-    it('middleWay([1, 2, 3], [4, 1, 1]) -> [2, 1])', () => {
-      expect(middleWay([1, 2, 3], [4, 1, 1])).toEqual([2, 1]);
-    });
+  it('middleWay([1, 2, 3], [4, 1, 1]) -> [2, 1])', () => {
+    expect(middleWay([1, 2, 3], [4, 1, 1])).toEqual([2, 1]);
+  });
 
 });
